@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting Records</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Voting Records</h1>
+        <div id="addVoter">
+            <h2>Add Voter</h2>
+            <form id="addVoterForm">
+                <input type="text" id="voterId" placeholder="Voter ID">
+                <input type="text" id="voterName" placeholder="Name">
+                <input type="text" id="voterAddress" placeholder="Address">
+                <input type="number" id="voterAge" placeholder="Age">
+                <button type="submit">Add Voter</button>
+            </form>
+        </div>
+        <div id="editVoter">
+            <h2>Edit Voter</h2>
+            <form id="editVoterForm">
+                <input type="text" id="editVoterId" placeholder="Voter ID">
+                <input type="text" id="editVoterName" placeholder="Name">
+                <input type="text" id="editVoterAddress" placeholder="Address">
+                <input type="number" id="editVoterAge" placeholder="Age">
+                <button type="submit">Edit Voter</button>
+            </form>
+        </div>
+        <div id="deleteVoter">
+            <h2>Delete Voter</h2>
+            <form id="deleteVoterForm">
+                <input type="text" id="deleteVoterId" placeholder="Voter ID">
+                <button type="submit">Delete Voter</button>
+            </form>
+        </div>
+        <div id="getVoter">
+            <h2>Get Voter</h2>
+            <form id="getVoterForm">
+                <input type="text" id="getVoterId" placeholder="Voter ID">
+                <button type="submit">Get Voter</button>
+            </form>
+            <pre id="voterResult"></pre>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
